@@ -20,6 +20,16 @@ export default function OfferCard() {
                 🔥 OFERTA ESPECIAL - TEMPO LIMITADO
               </div>
             </div>
+            
+            {/* Product Image */}
+            <div className="flex justify-center mb-6">
+              <img 
+                src="/produto png.png" 
+                alt="Guia 30 Dias Sem Telas - Mundo Sem Telas" 
+                className="w-64 h-auto rounded-lg shadow-lg"
+              />
+            </div>
+            
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Adquira Agora o Guia Completo!
             </h2>
@@ -32,11 +42,11 @@ export default function OfferCard() {
             <div>
               <div className="mb-6">
                 <div className="flex items-center justify-center md:justify-start space-x-4 mb-4">
-                  <span className="text-2xl line-through opacity-60">De R$ 83,90</span>
-                  <span className="text-4xl font-bold text-yellow-300">R$ 18,90</span>
+                  <span className="text-2xl line-through opacity-60">De R$83,90</span>
+                  <span className="text-4xl font-bold text-yellow-300">R$18,90</span>
                 </div>
                 <p className="text-center md:text-left text-sm opacity-75">
-                  Ou 12x de R$ 1,58 sem juros
+                  Ou 12x de R$1,58 sem juros
                 </p>
               </div>
 
