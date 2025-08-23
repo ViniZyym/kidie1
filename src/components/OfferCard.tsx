@@ -41,7 +41,7 @@ export default function OfferCard() {
               </div>
 
               <button className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-purple-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mb-6">
-                💳 COMPRAR AGORA - 50% OFF
+                💳 COMPRAR AGORA - 77,47% OFF
               </button>
 
               <div className="text-center">
