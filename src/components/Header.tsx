@@ -2,6 +2,13 @@ import React from 'react';
 import { Heart, Users, Sparkles } from 'lucide-react';
 
 export default function Header() {
+  const scrollToOffer = () => {
+    const offerSection = document.getElementById('offer-section');
+    if (offerSection) {
+      offerSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <header className="relative overflow-hidden bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white">
       {/* Background Animation */}
@@ -30,7 +37,10 @@ export default function Header() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-yellow-400 hover:bg-yellow-300 text-purple-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button 
+              onClick={scrollToOffer}
+              className="bg-yellow-400 hover:bg-yellow-300 text-purple-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
               Quero Transformar Minha Família! 🚀
             </button>
             <p className="text-sm opacity-75">Mais de 10.000 famílias já transformaram suas vidas!</p>

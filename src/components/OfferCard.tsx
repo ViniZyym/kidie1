@@ -11,7 +11,7 @@ export default function OfferCard() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 text-white">
+    <section id="offer-section" className="py-20 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 text-white">
       <div className="max-w-4xl mx-auto px-4">
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-2xl border border-white/20">
           <div className="text-center mb-8">
