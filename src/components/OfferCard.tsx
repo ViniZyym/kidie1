@@ -33,10 +33,10 @@ export default function OfferCard() {
               <div className="mb-6">
                 <div className="flex items-center justify-center md:justify-start space-x-4 mb-4">
                   <span className="text-2xl line-through opacity-60">De R$ 83,90</span>
-                  <span className="text-4xl font-bold text-yellow-300">R$ 32,00</span>
+                  <span className="text-4xl font-bold text-yellow-300">R$ 18,90</span>
                 </div>
                 <p className="text-center md:text-left text-sm opacity-75">
-                  Ou 12x de R$ 2,67 sem juros
+                  Ou 12x de R$ 1,58 sem juros
                 </p>
               </div>
 
