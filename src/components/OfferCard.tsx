@@ -50,9 +50,14 @@ export default function OfferCard() {
                 </p>
               </div>
 
-              <button className="w-full bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-purple-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mb-6">
+              <a 
+                href="https://www.ggcheckout.com/checkout/v2/yggq2GQ0doXgrFlw4t3B" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block w-full bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-300 hover:to-orange-300 text-purple-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mb-6 text-center"
+              >
                 💳 COMPRAR AGORA - 50% OFF
-              </button>
+              </a>
 
               <div className="text-center">
                 <div className="flex items-center justify-center space-x-2 text-green-300 mb-2">
